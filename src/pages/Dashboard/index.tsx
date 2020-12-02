@@ -86,6 +86,7 @@ const Dashboard: React.FC = () => {
   }
 
   function handleEditFood(food: IFoodPlate): void {
+    console.log(food);
     setEditingFood(food);
     toggleEditModal();
   }
